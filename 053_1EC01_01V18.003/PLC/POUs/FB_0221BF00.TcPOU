@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.11">
+  <POU Name="FB_0221BF00" Id="{5bb84d6f-2770-4ada-a3d8-0fd02f784361}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION_BLOCK FB_0221BF00
+VAR_INPUT
+	iCount	 : INT;	
+END_VAR
+VAR
+	byB1  AT%Q*	: BOOL;
+	byB2  AT%Q*	: BOOL;
+	byB3  AT%Q*	: BOOL;
+	byB4  AT%Q*	: BOOL;
+	byB5  AT%Q*	: BOOL;
+	byB6  AT%Q*	: BOOL;
+	byB7  AT%Q*	: BOOL;
+	byB8  AT%Q*	: BOOL;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[	byB1 	:= iCount.0;
+	byB2	:= iCount.1;
+	byB3	:= iCount.2;
+	byB4 	:= iCount.3;
+	byB5	:= iCount.4;
+	byB6	:= iCount.5;
+	byB7	:= iCount.6;
+	byB8	:= iCount.7;]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>

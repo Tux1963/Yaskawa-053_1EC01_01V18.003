@@ -1,0 +1,342 @@
+<?xml version="1.0"?>
+<TcEventSources Version="2">
+	<Source>
+		<GUID>{28111931-022B-0000-01EC-310503000000}</GUID>
+		<Name LcId="1031">VIPA 053-1EC01</Name>
+		<Name LcId="1033">VIPA 053-1EC01</Name>
+		<Event>
+			<Id>1</Id>
+			<Message LcId="1033">State change Request From: {0} To:{1}</Message>
+		</Event>
+		<Event>
+			<Id>2</Id>
+			<Message LcId="1033">{0}</Message>
+		</Event>
+		<Event>
+			<Id>15</Id>
+			<Message LcId="1033">Calculate bus cycle time failed (Local timer too slow)</Message>
+		</Event>
+		<Event>
+			<Id>17</Id>
+			<Message LcId="1033">Sync Manager {0} invalid address ({1})</Message>
+		</Event>
+		<Event>
+			<Id>18</Id>
+			<Message LcId="1033">Sync Manager {0} invalid size ({1})</Message>
+		</Event>
+		<Event>
+			<Id>19</Id>
+			<Message LcId="1033">Sync Manager {0} invalid settings ({1})</Message>
+		</Event>
+		<Event>
+			<Id>32</Id>
+			<Message LcId="1033">DC activation register is invalid</Message>
+		</Event>
+		<Event>
+			<Id>33</Id>
+			<Message LcId="1033">Configured SyncType (0x1C32.1 or 0x1C33.1) not supported. Check DC registers and supported SyncTypes (0x1C32.4 and 0x1C33.4)</Message>
+		</Event>
+		<Event>
+			<Id>100</Id>
+			<Message LcId="1031">Prozessalarm auf Steckplatz {0}: PRIT_A=0x{1,x}, PRIT_B=0x{2,x}, PRIT_US=0x{3,x}</Message>
+			<Message LcId="1033">Hardware interrupt on slot {0}: PRIT_A=0x{1,x}, PRIT_B=0x{2,x}, PRIT_US=0x{3,x}</Message>
+		</Event>
+		<Event>
+			<Id>101</Id>
+			<Message LcId="1031">Diagnosealarm kommend auf Steckplatz {0}: ERR_A=0x{1,x}, MODTYP=0x{2,x}, ERR_C=0x{3,x}, ERR_D=0x{4,x}, CHTYP=0x{5,x}, NUMBIT=0x{6,x}, NUMCH=0x{7,x}, CHERR=0x{8,x}, CHxERR=[0x{9,x} 0x{10,x} 0x{11,x} 0x{12,x} 0x{13,x} 0x{14,x} 0x{15,x} 0x{16,x}], DIAG_US=0x{17,x}</Message>
+			<Message LcId="1033">Diagnostic interrupt incoming on slot {0}: ERR_A=0x{1,x}, MODTYP=0x{2,x}, ERR_C=0x{3,x}, ERR_D=0x{4,x}, CHTYP=0x{5,x}, NUMBIT=0x{6,x}, NUMCH=0x{7,x}, CHERR=0x{8,x}, CHxERR=[0x{9,x} 0x{10,x} 0x{11,x} 0x{12,x} 0x{13,x} 0x{14,x} 0x{15,x} 0x{16,x}], DIAG_US=0x{17,x}</Message>
+		</Event>
+		<Event>
+			<Id>102</Id>
+			<Message LcId="1031">Diagnosealarm gehend auf Steckplatz {0}:  ERR_A=0x{1,x}, MODTYP=0x{2,x}, ERR_C=0x{3,x}, ERR_D=0x{4,x}, CHTYP=0x{5,x}, NUMBIT=0x{6,x}, NUMCH=0x{7,x}, CHERR=0x{8,x}, CHxERR=[0x{9,x} 0x{10,x} 0x{11,x} 0x{12,x} 0x{13,x} 0x{14,x} 0x{15,x} 0x{16,x}], DIAG_US=0x{17,x}</Message>
+			<Message LcId="1033">Diagnostic interrupt outgoing on slot {0}: ERR_A=0x{1,x}, MODTYP=0x{2,x}, ERR_C=0x{3,x}, ERR_D=0x{4,x}, CHTYP=0x{5,x}, NUMBIT=0x{6,x}, NUMCH=0x{7,x}, CHERR=0x{8,x}, CHxERR=[0x{9,x} 0x{10,x} 0x{11,x} 0x{12,x} 0x{13,x} 0x{14,x} 0x{15,x} 0x{16,x}], DIAG_US=0x{17,x}</Message>
+		</Event>
+		<Event>
+			<Id>103</Id>
+			<Message LcId="1031">Es wurde ein Problem auf dem SLIO-Bus festgestellt. Bitte wenden Sie sich an den Support. (Interne Informationen: SLIO-Steckplatz = {0}, Daten = 0x{1,x})</Message>
+			<Message LcId="1033">A problem has been identified on the SLIO bus. Please contact support. (internal information: SLIO slot = {0}, data = 0x{1,x})</Message>
+		</Event>
+		<Event>
+			<Id>104</Id>
+			<Message LcId="1031">SPI Timeout kommend auf Steckplatz {0}</Message>
+			<Message LcId="1033">SPI Timeout incoming on slot {0}</Message>
+		</Event>
+		<Event>
+			<Id>105</Id>
+			<Message LcId="1031">SPI Timeout gehend auf Steckplatz {0}</Message>
+			<Message LcId="1033">SPI Timeout outgoing on slot {0}</Message>
+		</Event>
+		<Event>
+			<Id>256</Id>
+			<Message LcId="1031">Konfigurationsfehler variables PDO-Mapping Index 0x{0,x}: parametrierte IO-Gesamtlänge von {1} Byte übersteigt die maximal mögliche Modullänge von {2} Byte.</Message>
+			<Message LcId="1033">Configuration error variable PDO-Mapping Index 0x{0,x}: parameterized total IO length od {1} byte exceeds maximal module IO length of {2} Byte</Message>
+		</Event>
+		<Event>
+			<Id>257</Id>
+			<Message LcId="1031">Konfigurationsfehler variables PDO-Mapping Index 0x{0,x}:{1,x}: unerwarteter PDO-Index 0x{2,x} (erwarteter PDO-Index: 0x{3,x})</Message>
+			<Message LcId="1033">Configuration error variable PDO-Mapping Index 0x{0,x}:{1,x}: unexpected PDO index 0x{2,x}  (expected PDO index: 0x{3,x})</Message>
+		</Event>
+		<Event>
+			<Id>258</Id>
+			<Message LcId="1031">Konfigurationsfehler variables PDO-Mapping Index 0x{0,x}:{1,x}: unerwarteter PDO-Subindex 0x{2,x} (erwarteter PDO-Subindex: 0x{3,x})</Message>
+			<Message LcId="1033">Configuration error variable PDO-Mapping Index 0x{0,x}:{1,x}: unexpected PDO subindex 0x{2,x}  (expected PDO subindex: 0x{3,x})</Message>
+		</Event>
+		<Event>
+			<Id>259</Id>
+			<Message LcId="1031">Konfigurationsfehler variables PDO-Mapping Index 0x{0,x}:{1,x}: unerwartete PDO-Bitlänge {2} (erwartete PDO-Bitlänge: {3})</Message>
+			<Message LcId="1033">Configuration error variable PDO-Mapping Index 0x{0,x}:{1,x}: unexpected PDO bitlength {2} (expected PDO bitlength: {3})</Message>
+		</Event>
+		<Event>
+			<Id>768</Id>
+			<Message LcId="1031">Konfigurationskonflikt auf SLIO-Steckplatz {0} erkannt</Message>
+			<Message LcId="1033">Configuration mismatch on SLIO slot {0} detected</Message>
+		</Event>
+		<Event>
+			<Id>1000</Id>
+			<Message LcId="1031"><![CDATA[Statuswechsel nach <INIT>]]></Message>
+			<Message LcId="1033"><![CDATA[State change to <INIT>]]></Message>
+		</Event>
+		<Event>
+			<Id>1001</Id>
+			<Message LcId="1031"><![CDATA[Statuswechsel nach <PREOP>]]></Message>
+			<Message LcId="1033"><![CDATA[State change to <PREOP>]]></Message>
+		</Event>
+		<Event>
+			<Id>1002</Id>
+			<Message LcId="1031"><![CDATA[Statuswechsel nach <SAFEOP>]]></Message>
+			<Message LcId="1033"><![CDATA[State change to <SAFEOP>]]></Message>
+		</Event>
+		<Event>
+			<Id>1003</Id>
+			<Message LcId="1031"><![CDATA[Statuswechsel nach <OP>]]></Message>
+			<Message LcId="1033"><![CDATA[State change to <OP>]]></Message>
+		</Event>
+		<Event>
+			<Id>1004</Id>
+			<Message LcId="1031"><![CDATA[Statuswechsel nach <BOOTSTRAP>]]></Message>
+			<Message LcId="1033"><![CDATA[State change to <BOOTSTRAP>]]></Message>
+		</Event>
+		<Event>
+			<Id>1005</Id>
+			<Message LcId="1031">Statuswechsel nach 0x{0,x} mit AlStatusCode 0x{1,x}</Message>
+			<Message LcId="1033">State change to 0x{0,x} with AlStatusCode 0x{1,x}</Message>
+		</Event>
+		<Event>
+			<Id>1024</Id>
+			<Message LcId="1031">SLIO: Prozessdatenaustausch auf dem Rückwandbus konnte nicht gestartet werden. Error Code: 0x{0,x}</Message>
+			<Message LcId="1033">SLIO: Process data exchange on backplane bus could not be started. Error Code: 0x{0,x}</Message>
+		</Event>
+		<Event>
+			<Id>1025</Id>
+			<Message LcId="1031">SLIO: Prozessdatenaustausch auf dem Rückwandbus fehlgeschlagen. Error Code: 0x{0,x}</Message>
+			<Message LcId="1033">SLIO: Process data exchange on backplane bus failed. Error Code: 0x{0,x}</Message>
+		</Event>
+		<Event>
+			<Id>1026</Id>
+			<Message LcId="1031">SLIO/Sync: Prozessdatenaustausch wurde zu spät gestartet.</Message>
+			<Message LcId="1033">SLIO/Sync: Process data exchange started too late.</Message>
+		</Event>
+		<Event>
+			<Id>1027</Id>
+			<Message LcId="1031">SLIO/Sync: Es wurden zwei Sync-Interrupts erkannt ohne das Prozessdaten auf dem Rückwandbus ausgetauscht wurden.</Message>
+			<Message LcId="1033">SLIO/Sync: Two sync interrupts were detected without the process data being exchanged on the backplane bus.</Message>
+		</Event>
+		<Event>
+			<Id>1028</Id>
+			<Message LcId="1031">SLIO/Sync: Es wurden keine Sync-Interrupts mehr erkannt.</Message>
+			<Message LcId="1033">SLIO/Sync: No sync interrupts were detected anymore.</Message>
+		</Event>
+		<Event>
+			<Id>1029</Id>
+			<Message LcId="1031">SLIO: NodeMonitoring-Fehler (slot = {0}, error code = 0x{1,x})</Message>
+			<Message LcId="1033">SLIO: NodeMonitoring Error (slot = {0}, error code = 0x{1,x})</Message>
+		</Event>
+		<Event>
+			<Id>1030</Id>
+			<Message LcId="1031">SLIO: Sync/Freeze wird nicht unterstützt. Bitte Ausgabestand des Moduls prüfen. (SLIO slot = {0})</Message>
+			<Message LcId="1033">SLIO: Sync/Freeze not supported. Please check the hardware release of the module. (SLIO slot = {0})</Message>
+		</Event>
+		<Event>
+			<Id>1280</Id>
+			<Message LcId="1031">Normaler Start nach Netz EIN</Message>
+			<Message LcId="1033">Normal startup after power ON</Message>
+		</Event>
+		<Event>
+			<Id>1281</Id>
+			<Message LcId="1031">Beabsichtigter Reboot</Message>
+			<Message LcId="1033">Intended reboot</Message>
+		</Event>
+		<Event>
+			<Id>1282</Id>
+			<Message LcId="1031">Reboot nach Watchdog</Message>
+			<Message LcId="1033">Reboot after watchdog</Message>
+		</Event>
+		<Event>
+			<Id>1283</Id>
+			<Message LcId="1031">Empfang eines neuen Firmware-Package</Message>
+			<Message LcId="1033">Receiving new firmware package</Message>
+		</Event>
+		<Event>
+			<Id>1284</Id>
+			<Message LcId="1031">Firmware-Update wird gestartet</Message>
+			<Message LcId="1033">Start firmware update</Message>
+		</Event>
+		<Event>
+			<Id>1285</Id>
+			<Message LcId="1031">Firmware-Update erfolgreich</Message>
+			<Message LcId="1033">Firmware update successful</Message>
+		</Event>
+		<Event>
+			<Id>1286</Id>
+			<Message LcId="1031">Firmware-Update fehlgeschlagen (Error Code: {0})</Message>
+			<Message LcId="1033">Firmware update failed (Error Code: {0})</Message>
+		</Event>
+		<Event>
+			<Id>1287</Id>
+			<Message LcId="1031">Betriebsmodus: Standard Mode</Message>
+			<Message LcId="1033">Operating Mode: Standard Mode</Message>
+		</Event>
+		<Event>
+			<Id>1288</Id>
+			<Message LcId="1031">Betriebsmodus: Enhanced Mode</Message>
+			<Message LcId="1033">Operating Mode: Enhanced Mode</Message>
+		</Event>
+		<Event>
+			<Id>1536</Id>
+			<Message LcId="1031">FMM: Konfiguration aktiviert</Message>
+			<Message LcId="1033">FMM: Configuration enabled</Message>
+		</Event>
+		<Event>
+			<Id>1537</Id>
+			<Message LcId="1031">FMM: Konfiguration deaktiviert</Message>
+			<Message LcId="1033">FMM: Configuration disabled</Message>
+		</Event>
+		<Event>
+			<Id>1538</Id>
+			<Message LcId="1031">FMM: Mapping konnte nicht geschrieben werden</Message>
+			<Message LcId="1033">FMM: Mapping could not be written</Message>
+		</Event>
+		<Event>
+			<Id>1539</Id>
+			<Message LcId="1031">FMM: Mapping konnte nicht gelesen werden</Message>
+			<Message LcId="1033">FMM: Mapping could not be read</Message>
+		</Event>
+		<Event>
+			<Id>1540</Id>
+			<Message LcId="1031">FMM: Keine Daten verfügbar</Message>
+			<Message LcId="1033">FMM: No data available</Message>
+		</Event>
+		<Event>
+			<Id>1541</Id>
+			<Message LcId="1031">FMM: Nicht genügend Speicherplatz verfügbar</Message>
+			<Message LcId="1033">FMM: Not enough space available</Message>
+		</Event>
+		<Event>
+			<Id>1542</Id>
+			<Message LcId="1031">FMM: Allgemeiner Konfigurationsfehler</Message>
+			<Message LcId="1033">FMM: General configuration error</Message>
+		</Event>
+		<Event>
+			<Id>1543</Id>
+			<Message LcId="1031">FMM: Ungültige Version</Message>
+			<Message LcId="1033">FMM: Invalid version</Message>
+		</Event>
+		<Event>
+			<Id>1544</Id>
+			<Message LcId="1031">FMM: Ungültige Slotnummer erkannt</Message>
+			<Message LcId="1033">FMM: Invalid slot number detected</Message>
+		</Event>
+		<Event>
+			<Id>1545</Id>
+			<Message LcId="1031">FMM: Ungültige Slotzuordnung erkannt</Message>
+			<Message LcId="1033">FMM: Invalid slot mapping detected</Message>
+		</Event>
+		<Event>
+			<Id>1546</Id>
+			<Message LcId="1031">FMM: Slice-Bus nicht initialisiert</Message>
+			<Message LcId="1033">FMM: Slice-Bus not initialized</Message>
+		</Event>
+		<Event>
+			<Id>1547</Id>
+			<Message LcId="1031">FMM: Ungültige Daten</Message>
+			<Message LcId="1033">FMM: Invalid data</Message>
+		</Event>
+		<Event>
+			<Id>1548</Id>
+			<Message LcId="1031">FMM: Konfiguration wurde erfolgreich gespeichert</Message>
+			<Message LcId="1033">FMM: Configuration saved successfully</Message>
+		</Event>
+		<Event>
+			<Id>1549</Id>
+			<Message LcId="1031">FMM: Konfiguration konnte nicht gespeichert werden</Message>
+			<Message LcId="1033">FMM: Configuration could not be saved</Message>
+		</Event>
+		<Event>
+			<Id>1550</Id>
+			<Message LcId="1031">FMM: Konfiguration wurde erfolgreich geladen</Message>
+			<Message LcId="1033">FMM: Configuration loaded successfully</Message>
+		</Event>
+		<Event>
+			<Id>1551</Id>
+			<Message LcId="1031">FMM: Konfiguration konnte nicht geladen werden</Message>
+			<Message LcId="1033">FMM: Configuration could not be loaded</Message>
+		</Event>
+		<Event>
+			<Id>1552</Id>
+			<Message LcId="1031">FMM: Empfangene Slot-Konfiguration stimmt nicht mit der gespeicherten Slot-Konfiguration überein</Message>
+			<Message LcId="1033">FMM: Received slot configuration does not match the slot configuration stored in flash</Message>
+		</Event>
+		<Event>
+			<Id>1553</Id>
+			<Message LcId="1031">FMM: Fehler beim Auslesen der gespeicherten Slot-Konfiguation</Message>
+			<Message LcId="1033">FMM: Error while reading slot configuration stored in flash</Message>
+		</Event>
+		<Event>
+			<Id>1554</Id>
+			<Message LcId="1031">FMM: Slot-Konfiguration konnte nicht gespeichert werden</Message>
+			<Message LcId="1033">FMM: Slot configuration could not be stored to flash</Message>
+		</Event>
+		<Event>
+			<Id>1555</Id>
+			<Message LcId="1031">FMM: Das Herunterladen der Slot-Konfiguration ist erforderlich</Message>
+			<Message LcId="1033">FMM: Download slot configuration required</Message>
+		</Event>
+		<Event>
+			<Id>1792</Id>
+			<Message LcId="1031">Ersatzwerte aktiviert</Message>
+			<Message LcId="1033">Default values enabled</Message>
+		</Event>
+		<Event>
+			<Id>1793</Id>
+			<Message LcId="1031">Ersatzwerte deaktiviert</Message>
+			<Message LcId="1033">Default values disabled</Message>
+		</Event>
+		<Event>
+			<Id>1794</Id>
+			<Message LcId="1031">Webserver aktiviert</Message>
+			<Message LcId="1033">Webserver enabled</Message>
+		</Event>
+		<Event>
+			<Id>1795</Id>
+			<Message LcId="1031">Webserver deaktiviert</Message>
+			<Message LcId="1033">Webserver disabled</Message>
+		</Event>
+		<Event>
+			<Id>1796</Id>
+			<Message LcId="1031">Webserver konnte nicht aktiviert werden</Message>
+			<Message LcId="1033">Webserver could not be enabled</Message>
+		</Event>
+		<Event>
+			<Id>2048</Id>
+			<Message LcId="1033">FSoE: Unable to read safety address from SLIO slot {0} (Error Code: 0x{1,x})</Message>
+		</Event>
+		<Event>
+			<Id>2049</Id>
+			<Message LcId="1033">FSoE module on SLIO slot {0} (module ID: 0x{1,x}) not supported in Normal mode. Please change to Enhanced Mode (0x3000:04)</Message>
+		</Event>
+		<Property>
+			<Name>DisplayTxtId</Name>
+			<Value>true</Value>
+		</Property>
+	</Source>
+</TcEventSources>

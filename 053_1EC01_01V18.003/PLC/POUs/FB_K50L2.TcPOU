@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.11">
+  <POU Name="FB_K50L2" Id="{559f78f9-c8ed-4bd5-84d3-8c878f6c8da0}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION_BLOCK FB_K50L2
+VAR_INPUT
+	iState	 : INT;	
+END_VAR
+VAR
+	byOut1	AT %Q* : ARRAY[1..4] OF BYTE;
+	//eReadState	: (WAIT,T1,T2,T3);
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[
+iState := TO_INT(iState AND TO_INT(16#3));
+
+
+CASE iState OF
+	0:
+		byOut1[1] := 16#00;
+		byOut1[2] := 16#6;
+		byOut1[3] := 16#82;
+		byOut1[4] := 16#27;
+	1:
+		byOut1[1] := 16#00;
+		byOut1[2] := 16#1;
+		byOut1[3] := 16#88;
+		byOut1[4] := 16#2B;
+	2:
+		byOut1[1] := 16#00;
+		byOut1[2] := 16#1;
+		byOut1[3] := 16#88;
+		byOut1[4] := 16#24;
+	3:
+		byOut1[1] := 16#00;
+		byOut1[2] := 16#4;
+		byOut1[3] := 16#88;
+		byOut1[4] := 16#22;
+END_CASE
+]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<TcSmItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4024.29" ClassName="CDevEtherCATDef" SubType="111">
+	<Device Id="7" DevType="111" DevFlags="#x0003" AmsPort="28679" AmsNetId="169.254.14.243.8.1" RemoteName="Gerät 7 (EtherCAT)" InfoImageId="7">
+		<Name>__FILENAME__</Name>
+		<AddressInfo>
+			<Pnp>
+				<DeviceDesc>Ethernet 7 (D-Link DUB-1312/1332 USB3.0 to Gigabit </DeviceDesc>
+				<DeviceName>\DEVICE\{2BBA57D0-86EE-45DE-BA89-7E1479E68F18}</DeviceName>
+				<DeviceData>e46f13f4e6b6</DeviceData>
+			</Pnp>
+		</AddressInfo>
+		<Image Id="6" AddrType="9" ImageType="3">
+			<Name>Prozessabbild</Name>
+		</Image>
+		<Box File="Box 1 (053-1EC01).xti" Id="1">
+			<EtherCAT PortABoxInfo="#x00ffffff"/>
+		</Box>
+		<EtherCAT EnableVirtualSwitch="true" MaxSwitchPorts="2" MaxSwitchFrames="120"/>
+	</Device>
+</TcSmItem>

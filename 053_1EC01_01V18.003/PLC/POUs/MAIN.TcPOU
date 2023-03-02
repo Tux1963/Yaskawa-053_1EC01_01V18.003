@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.11">
+  <POU Name="MAIN" Id="{52376470-8a5e-49d7-aea9-e7f7ba4383e0}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MAIN
+VAR	
+	fbK50L2		 : FB_K50L2;
+	fb0221BF00	 : FB_0221BF00;
+	
+	iCount		: INT;
+	tNow		: ULINT := 0;
+	tSpace		: ULINT	:= 0;
+	tDiff		: ULINT := 100000000;   //TO_ULINT(T#10s);
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[tNow := F_GetSystemTime();
+
+IF (tNow-tSpace) > tDiff THEN
+	tSpace := tNow;
+	fb0221BF00(iCount := iCount);
+	fbK50L2(iState := iCount);
+	iCount := iCount+1;
+END_IF
+
+
+
+
+]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>

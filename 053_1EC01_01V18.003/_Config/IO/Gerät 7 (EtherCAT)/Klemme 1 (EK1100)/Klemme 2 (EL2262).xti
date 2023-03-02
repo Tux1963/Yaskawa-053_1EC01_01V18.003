@@ -1,0 +1,2696 @@
+<?xml version="1.0"?>
+<TcSmItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4024.29" ClassName="CFlbTermDef" SubType="9099">
+	<DataTypes>
+		<DataType>
+			<Name GUID="{18071995-0000-0000-0000-002000000006}" IecBaseType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..5] OF BIT</Name>
+			<BitSize>6</BitSize>
+			<BaseType GUID="{18071995-0000-0000-0000-000000000010}">BIT</BaseType>
+			<ArrayInfo>
+				<LBound>0</LBound>
+				<Elements>6</Elements>
+			</ArrayInfo>
+		</DataType>
+		<DataType>
+			<Name GUID="{18071995-0000-0000-0000-002000000002}" IecBaseType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..1] OF BIT</Name>
+			<BitSize>2</BitSize>
+			<BaseType GUID="{18071995-0000-0000-0000-000000000010}">BIT</BaseType>
+			<ArrayInfo>
+				<LBound>0</LBound>
+				<Elements>2</Elements>
+			</ArrayInfo>
+		</DataType>
+		<DataType>
+			<Name GUID="{18071995-0000-0000-0000-002000000003}" IecBaseType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..2] OF BIT</Name>
+			<BitSize>3</BitSize>
+			<BaseType GUID="{18071995-0000-0000-0000-000000000010}">BIT</BaseType>
+			<ArrayInfo>
+				<LBound>0</LBound>
+				<Elements>3</Elements>
+			</ArrayInfo>
+		</DataType>
+		<DataType>
+			<Name GUID="{18071995-0000-0000-0000-002000000004}" IecBaseType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..3] OF BIT</Name>
+			<BitSize>4</BitSize>
+			<BaseType GUID="{18071995-0000-0000-0000-000000000010}">BIT</BaseType>
+			<ArrayInfo>
+				<LBound>0</LBound>
+				<Elements>4</Elements>
+			</ArrayInfo>
+		</DataType>
+		<DataType>
+			<Name GUID="{18071995-0000-0000-0000-002000000005}" IecBaseType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..4] OF BIT</Name>
+			<BitSize>5</BitSize>
+			<BaseType GUID="{18071995-0000-0000-0000-000000000010}">BIT</BaseType>
+			<ArrayInfo>
+				<LBound>0</LBound>
+				<Elements>5</Elements>
+			</ArrayInfo>
+		</DataType>
+		<DataType>
+			<Name GUID="{18071995-0000-0000-0000-002000000007}" IecBaseType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..6] OF BIT</Name>
+			<BitSize>7</BitSize>
+			<BaseType GUID="{18071995-0000-0000-0000-000000000010}">BIT</BaseType>
+			<ArrayInfo>
+				<LBound>0</LBound>
+				<Elements>7</Elements>
+			</ArrayInfo>
+		</DataType>
+	</DataTypes>
+	<ImageDatas>
+		<ImageData Id="1000">424dd6020000000000003600000028000000100000000e0000000100180000000000a0020000120b0000120b00000000000000000000ff00ffff00ffff00ffff00ffff00ffff00ff808080808080808080808080808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c000ffffc0c0c000ffff808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0ff0000c0c0c0ff0000808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ff0000ff0000ff0000ff0000ff0000ff0000ffc0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ff0000ff0000ff0000ff0000ff0000ff0000ffc0c0c00000ffc0c0c00000ff808080ff00ffff00ffff00ffff00ffff00ff0000ff0000ff0000ff0000ff0000ff0000ffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ff0000ff0000ff0000ff0000ff0000ff0000ffc0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ff0000ff0000ff0000ff0000ff0000ff0000ffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ff0000ff0000ff0000ff0000ff0000ff0000ffc0c0c0008000c0c0c0008000808080ff00ffff00ffff00ffff00ffff00ff0000ff0000ff0000ff0000ff0000ff0000ffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ff</ImageData>
+	</ImageDatas>
+	<Box Id="2" BoxType="9099">
+		<Name>__FILENAME__</Name>
+		<ImageId>1000</ImageId>
+		<EtherCAT SlaveType="1" PdiType="#x0506" CycleMBoxPollingTime="0" VendorId="#x00000002" ProductCode="#x08d63052" RevisionNo="#x00020000" InfoDataDcTimes="true" PortPhys="51" PdoOvsFactor="10" MaxSlotCount="256" MaxSlotGroupCount="1" SlotPdoIncrement="1" SlotIndexIncrement="16" Type="EL2262 2K. Dig. Ausgang 24V, 1µs, DC Oversample" Desc="EL2262">
+			<SyncMan>001004006400010003000000000000000000001064090000</SyncMan>
+			<SyncMan>001204006400010003000000000000000000001264090000</SyncMan>
+			<SyncMan>980900000000000004000000000000000000980900040000</SyncMan>
+			<Fmmu>0000000000000000001000020100000001000000060000000000000000000000</Fmmu>
+			<Fmmu>0000000000000000001200020100000001000000060000000100000000000000</Fmmu>
+			<Fmmu>0000000000000000000000010000000002000000060000000200000000000000</Fmmu>
+			<SuName></SuName>
+			<SuName></SuName>
+			<DcData>30070000000000000000000000000000f6ffffff000000000000000000000000</DcData>
+			<DcMode>446353796e630000000000000000000032204368616e6e656c7320284269747329000000000000000000000000000000000000000000000000000000ffff3007ffff0700000000000000000ae803000000000000000000000000000000000000001700000016000110170000021b0200011701008016010118170100</DcMode>
+			<DcMode>446353796e633200000000000000000032204368616e6e656c7320284279746573290000000000000000000000000000000000000000000000000000ffff3007f8ff0500000000000000000ae8030000000000000000000000000000000000000017000000180001021b02000117010080180101</DcMode>
+			<DcMode>446353796e635f31000000000000000031204368616e6e656c2028426974732900000000000000000000000000000000000000000000000000000000ffff3007ffff0400000000000000000ae803000000000000000000000000000000000000001700000016000110170000021b0200</DcMode>
+			<DcMode>446353796e63325f310000000000000031204368616e6e656c2028427974657329000000000000000000000000000000000000000000000000000000ffff3007f8ff0300000000000000000ae8030000000000000000000000000000000000000017000000180001021b0200</DcMode>
+			<Pdo Name="StartTimeNextOutput" Index="#x1702" Flags="#x0030">
+				<Entry Name="StartTimeNextOutput" Index="#x1d09" Sub="#x98">
+					<Type>UDINT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="CycCount0" Index="#x1700" InOut="1" Flags="#x0010" SyncMan="0">
+				<Entry Name="Cycle Counter0" Index="#x7800" Sub="#x01">
+					<Type>UINT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 0" Index="#x1600" InOut="1" Flags="#x0011" SyncMan="0" OverSampleFac="1" OverSampleMin="1" OverSampleMax="128" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7000" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 1" Index="#x1601" InOut="1" Flags="#x0014" SyncMan="0" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7008" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 2" Index="#x1602" InOut="1" Flags="#x0014" SyncMan="0" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7010" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 3" Index="#x1603" InOut="1" Flags="#x0014" SyncMan="0" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7018" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 4" Index="#x1604" InOut="1" Flags="#x0014" SyncMan="0" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7020" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 5" Index="#x1605" InOut="1" Flags="#x0014" SyncMan="0" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7028" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 6" Index="#x1606" InOut="1" Flags="#x0014" SyncMan="0" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7030" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 7" Index="#x1607" InOut="1" Flags="#x0014" SyncMan="0" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7038" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 8" Index="#x1608" InOut="1" Flags="#x0014" SyncMan="0" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7040" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 9" Index="#x1609" InOut="1" Flags="#x0014" SyncMan="0" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7048" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 10" Index="#x160a" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7050" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 11" Index="#x160b" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7058" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 12" Index="#x160c" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7060" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 13" Index="#x160d" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7068" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 14" Index="#x160e" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7070" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 15" Index="#x160f" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7078" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 16" Index="#x1610" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7080" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 17" Index="#x1611" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7088" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 18" Index="#x1612" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7090" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 19" Index="#x1613" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7098" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 20" Index="#x1614" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x70a0" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 21" Index="#x1615" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x70a8" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 22" Index="#x1616" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x70b0" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 23" Index="#x1617" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x70b8" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 24" Index="#x1618" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x70c0" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 25" Index="#x1619" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x70c8" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 26" Index="#x161a" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x70d0" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 27" Index="#x161b" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x70d8" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 28" Index="#x161c" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x70e0" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 29" Index="#x161d" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x70e8" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 30" Index="#x161e" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x70f0" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 31" Index="#x161f" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x70f8" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 32" Index="#x1620" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7100" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 33" Index="#x1621" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7108" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 34" Index="#x1622" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7110" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 35" Index="#x1623" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7118" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 36" Index="#x1624" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7120" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 37" Index="#x1625" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7128" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 38" Index="#x1626" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7130" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 39" Index="#x1627" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7138" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 40" Index="#x1628" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7140" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 41" Index="#x1629" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7148" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 42" Index="#x162a" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7150" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 43" Index="#x162b" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7158" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 44" Index="#x162c" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7160" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 45" Index="#x162d" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7168" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 46" Index="#x162e" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7170" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 47" Index="#x162f" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7178" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 48" Index="#x1630" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7180" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 49" Index="#x1631" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7188" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 50" Index="#x1632" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7190" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 51" Index="#x1633" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7198" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 52" Index="#x1634" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x71a0" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 53" Index="#x1635" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x71a8" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 54" Index="#x1636" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x71b0" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 55" Index="#x1637" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x71b8" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 56" Index="#x1638" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x71c0" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 57" Index="#x1639" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x71c8" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 58" Index="#x163a" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x71d0" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 59" Index="#x163b" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x71d8" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 60" Index="#x163c" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x71e0" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 61" Index="#x163d" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x71e8" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 62" Index="#x163e" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x71f0" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 63" Index="#x163f" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x71f8" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 64" Index="#x1640" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7200" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 65" Index="#x1641" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7208" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 66" Index="#x1642" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7210" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 67" Index="#x1643" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7218" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 68" Index="#x1644" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7220" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 69" Index="#x1645" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7228" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 70" Index="#x1646" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7230" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 71" Index="#x1647" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7238" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 72" Index="#x1648" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7240" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 73" Index="#x1649" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7248" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 74" Index="#x164a" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7250" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 75" Index="#x164b" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7258" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 76" Index="#x164c" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7260" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 77" Index="#x164d" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7268" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 78" Index="#x164e" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7270" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 79" Index="#x164f" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7278" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 80" Index="#x1650" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7280" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 81" Index="#x1651" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7288" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 82" Index="#x1652" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7290" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 83" Index="#x1653" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7298" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 84" Index="#x1654" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x72a0" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 85" Index="#x1655" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x72a8" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 86" Index="#x1656" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x72b0" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 87" Index="#x1657" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x72b8" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 88" Index="#x1658" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x72c0" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 89" Index="#x1659" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x72c8" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 90" Index="#x165a" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x72d0" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 91" Index="#x165b" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x72d8" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 92" Index="#x165c" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x72e0" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 93" Index="#x165d" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x72e8" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 94" Index="#x165e" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x72f0" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 95" Index="#x165f" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x72f8" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 96" Index="#x1660" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7300" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 97" Index="#x1661" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7308" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 98" Index="#x1662" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7310" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 99" Index="#x1663" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7318" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 100" Index="#x1664" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7320" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 101" Index="#x1665" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7328" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 102" Index="#x1666" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7330" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 103" Index="#x1667" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7338" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 104" Index="#x1668" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7340" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 105" Index="#x1669" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7348" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 106" Index="#x166a" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7350" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 107" Index="#x166b" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7358" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 108" Index="#x166c" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7360" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 109" Index="#x166d" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7368" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 110" Index="#x166e" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7370" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 111" Index="#x166f" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7378" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 112" Index="#x1670" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7380" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 113" Index="#x1671" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7388" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 114" Index="#x1672" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7390" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 115" Index="#x1673" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7398" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 116" Index="#x1674" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x73a0" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 117" Index="#x1675" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x73a8" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 118" Index="#x1676" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x73b0" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 119" Index="#x1677" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x73b8" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 120" Index="#x1678" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x73c0" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 121" Index="#x1679" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x73c8" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 122" Index="#x167a" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x73d0" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 123" Index="#x167b" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x73d8" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 124" Index="#x167c" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x73e0" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 125" Index="#x167d" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x73e8" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 126" Index="#x167e" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x73f0" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 127" Index="#x167f" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x73f8" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 0" Index="#x1800" InOut="1" Flags="#x0011" OverSampleFac="1" OverSampleMin="1" OverSampleMax="125" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7200" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 1" Index="#x1801" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7208" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 2" Index="#x1802" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7210" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 3" Index="#x1803" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7218" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 4" Index="#x1804" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7220" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 5" Index="#x1805" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7228" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 6" Index="#x1806" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7230" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 7" Index="#x1807" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7238" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 8" Index="#x1808" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7240" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 9" Index="#x1809" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7248" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 10" Index="#x180a" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7250" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 11" Index="#x180b" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7258" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 12" Index="#x180c" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7260" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 13" Index="#x180d" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7268" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 14" Index="#x180e" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7270" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 15" Index="#x180f" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7278" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 16" Index="#x1810" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7280" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 17" Index="#x1811" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7288" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 18" Index="#x1812" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7290" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 19" Index="#x1813" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7298" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 20" Index="#x1814" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x72a0" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 21" Index="#x1815" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x72a8" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 22" Index="#x1816" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x72b0" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 23" Index="#x1817" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x72b8" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 24" Index="#x1818" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x72c0" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 25" Index="#x1819" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x72c8" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 26" Index="#x181a" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x72d0" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 27" Index="#x181b" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x72d8" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 28" Index="#x181c" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x72e0" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 29" Index="#x181d" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x72e8" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 30" Index="#x181e" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x72f0" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 31" Index="#x181f" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x72f8" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 32" Index="#x1820" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7300" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 33" Index="#x1821" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7308" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 34" Index="#x1822" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7310" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 35" Index="#x1823" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7318" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 36" Index="#x1824" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7320" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 37" Index="#x1825" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7328" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 38" Index="#x1826" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7330" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 39" Index="#x1827" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7338" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 40" Index="#x1828" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7340" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 41" Index="#x1829" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7348" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 42" Index="#x182a" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7350" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 43" Index="#x182b" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7358" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 44" Index="#x182c" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7360" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 45" Index="#x182d" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7368" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 46" Index="#x182e" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7370" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 47" Index="#x182f" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7378" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 48" Index="#x1830" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7380" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 49" Index="#x1831" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7388" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 50" Index="#x1832" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7390" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 51" Index="#x1833" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7398" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 52" Index="#x1834" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x73a0" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 53" Index="#x1835" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x73a8" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 54" Index="#x1836" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x73b0" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 55" Index="#x1837" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x73b8" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 56" Index="#x1838" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x73c0" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 57" Index="#x1839" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x73c8" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 58" Index="#x183a" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x73d0" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 59" Index="#x183b" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x73d8" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 60" Index="#x183c" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x73e0" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 61" Index="#x183d" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x73e8" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 62" Index="#x183e" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x73f0" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 63" Index="#x183f" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x73f8" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 64" Index="#x1840" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7400" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 65" Index="#x1841" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7408" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 66" Index="#x1842" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7410" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 67" Index="#x1843" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7418" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 68" Index="#x1844" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7420" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 69" Index="#x1845" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7428" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 70" Index="#x1846" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7430" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 71" Index="#x1847" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7438" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 72" Index="#x1848" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7440" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 73" Index="#x1849" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7448" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 74" Index="#x184a" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7450" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 75" Index="#x184b" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7458" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 76" Index="#x184c" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7460" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 77" Index="#x184d" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7468" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 78" Index="#x184e" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7470" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 79" Index="#x184f" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7478" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 80" Index="#x1850" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7480" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 81" Index="#x1851" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7488" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 82" Index="#x1852" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7490" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 83" Index="#x1853" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7498" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 84" Index="#x1854" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x74a0" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 85" Index="#x1855" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x74a8" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 86" Index="#x1856" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x74b0" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 87" Index="#x1857" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x74b8" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 88" Index="#x1858" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x74c0" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 89" Index="#x1859" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x74c8" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 90" Index="#x185a" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x74d0" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 91" Index="#x185b" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x74d8" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 92" Index="#x185c" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x74e0" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 93" Index="#x185d" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x74e8" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 94" Index="#x185e" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x74f0" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 95" Index="#x185f" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x74f8" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 96" Index="#x1860" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7500" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 97" Index="#x1861" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7508" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 98" Index="#x1862" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7510" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 99" Index="#x1863" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7518" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 100" Index="#x1864" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7520" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 101" Index="#x1865" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7528" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 102" Index="#x1866" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7530" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 103" Index="#x1867" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7538" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 104" Index="#x1868" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7540" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 105" Index="#x1869" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7548" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 106" Index="#x186a" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7550" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 107" Index="#x186b" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7558" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 108" Index="#x186c" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7560" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 109" Index="#x186d" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7568" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 110" Index="#x186e" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7570" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 111" Index="#x186f" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7578" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 112" Index="#x1870" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7580" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 113" Index="#x1871" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7588" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 114" Index="#x1872" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7590" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 115" Index="#x1873" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x7598" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 116" Index="#x1874" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x75a0" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 117" Index="#x1875" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x75a8" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 118" Index="#x1876" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x75b0" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 119" Index="#x1877" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x75b8" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 120" Index="#x1878" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x75c0" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 121" Index="#x1879" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x75c8" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 122" Index="#x187a" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x75d0" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 123" Index="#x187b" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x75d8" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample0 124" Index="#x187c" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output0" Index="#x75e0" Sub="#x01">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Gap" Index="#x1710" InOut="1" Flags="#x0010" SyncMan="0">
+				<Entry>
+					<Type GUID="{18071995-0000-0000-0000-002000000006}">ARRAY [0..5] OF BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Gap" Index="#x1711" InOut="1" Flags="#x0010">
+				<Entry>
+					<Type GUID="{18071995-0000-0000-0000-002000000002}">ARRAY [0..1] OF BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Gap" Index="#x1712" InOut="1" Flags="#x0010">
+				<Entry>
+					<Type GUID="{18071995-0000-0000-0000-002000000003}">ARRAY [0..2] OF BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Gap" Index="#x1713" InOut="1" Flags="#x0010">
+				<Entry>
+					<Type GUID="{18071995-0000-0000-0000-002000000004}">ARRAY [0..3] OF BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Gap" Index="#x1714" InOut="1" Flags="#x0010">
+				<Entry>
+					<Type GUID="{18071995-0000-0000-0000-002000000005}">ARRAY [0..4] OF BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Gap" Index="#x1715" InOut="1" Flags="#x0010">
+				<Entry>
+					<Type GUID="{18071995-0000-0000-0000-002000000006}">ARRAY [0..5] OF BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Gap" Index="#x1716" InOut="1" Flags="#x0010">
+				<Entry>
+					<Type GUID="{18071995-0000-0000-0000-002000000007}">ARRAY [0..6] OF BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="CycCount1" Index="#x1701" InOut="1" Flags="#x0010" SyncMan="1">
+				<Entry Name="Cycle Counter1" Index="#x7800" Sub="#x02">
+					<Type>UINT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 0" Index="#x1680" InOut="1" Flags="#x0011" SyncMan="1" OverSampleFac="1" OverSampleMin="1" OverSampleMax="128" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7000" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 1" Index="#x1681" InOut="1" Flags="#x0014" SyncMan="1" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7008" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 2" Index="#x1682" InOut="1" Flags="#x0014" SyncMan="1" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7010" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 3" Index="#x1683" InOut="1" Flags="#x0014" SyncMan="1" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7018" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 4" Index="#x1684" InOut="1" Flags="#x0014" SyncMan="1" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7020" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 5" Index="#x1685" InOut="1" Flags="#x0014" SyncMan="1" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7028" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 6" Index="#x1686" InOut="1" Flags="#x0014" SyncMan="1" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7030" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 7" Index="#x1687" InOut="1" Flags="#x0014" SyncMan="1" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7038" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 8" Index="#x1688" InOut="1" Flags="#x0014" SyncMan="1" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7040" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 9" Index="#x1689" InOut="1" Flags="#x0014" SyncMan="1" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7048" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 10" Index="#x168a" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7050" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 11" Index="#x168b" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7058" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 12" Index="#x168c" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7060" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 13" Index="#x168d" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7068" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 14" Index="#x168e" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7070" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 15" Index="#x168f" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7078" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 16" Index="#x1690" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7080" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 17" Index="#x1691" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7088" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 18" Index="#x1692" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7090" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 19" Index="#x1693" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7098" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 20" Index="#x1694" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x70a0" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 21" Index="#x1695" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x70a8" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 22" Index="#x1696" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x70b0" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 23" Index="#x1697" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x70b8" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 24" Index="#x1698" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x70c0" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 25" Index="#x1699" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x70c8" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 26" Index="#x169a" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x70d0" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 27" Index="#x169b" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x70d8" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 28" Index="#x169c" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x70e0" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 29" Index="#x169d" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x70e8" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 30" Index="#x169e" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x70f0" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 31" Index="#x169f" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x70f8" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 32" Index="#x16a0" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7100" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 33" Index="#x16a1" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7108" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 34" Index="#x16a2" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7110" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 35" Index="#x16a3" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7118" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 36" Index="#x16a4" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7120" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 37" Index="#x16a5" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7128" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 38" Index="#x16a6" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7130" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 39" Index="#x16a7" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7138" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 40" Index="#x16a8" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7140" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 41" Index="#x16a9" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7148" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 42" Index="#x16aa" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7150" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 43" Index="#x16ab" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7158" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 44" Index="#x16ac" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7160" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 45" Index="#x16ad" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7168" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 46" Index="#x16ae" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7170" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 47" Index="#x16af" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7178" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 48" Index="#x16b0" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7180" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 49" Index="#x16b1" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7188" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 50" Index="#x16b2" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7190" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 51" Index="#x16b3" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7198" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 52" Index="#x16b4" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x71a0" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 53" Index="#x16b5" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x71a8" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 54" Index="#x16b6" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x71b0" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 55" Index="#x16b7" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x71b8" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 56" Index="#x16b8" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x71c0" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 57" Index="#x16b9" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x71c8" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 58" Index="#x16ba" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x71d0" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 59" Index="#x16bb" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x71d8" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 60" Index="#x16bc" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x71e0" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 61" Index="#x16bd" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x71e8" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 62" Index="#x16be" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x71f0" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 63" Index="#x16bf" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x71f8" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 64" Index="#x16c0" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7200" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 65" Index="#x16c1" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7208" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 66" Index="#x16c2" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7210" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 67" Index="#x16c3" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7218" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 68" Index="#x16c4" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7220" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 69" Index="#x16c5" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7228" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 70" Index="#x16c6" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7230" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 71" Index="#x16c7" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7238" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 72" Index="#x16c8" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7240" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 73" Index="#x16c9" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7248" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 74" Index="#x16ca" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7250" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 75" Index="#x16cb" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7258" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 76" Index="#x16cc" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7260" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 77" Index="#x16cd" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7268" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 78" Index="#x16ce" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7270" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 79" Index="#x16cf" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7278" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 80" Index="#x16d0" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7280" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 81" Index="#x16d1" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7288" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 82" Index="#x16d2" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7290" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 83" Index="#x16d3" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7298" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 84" Index="#x16d4" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x72a0" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 85" Index="#x16d5" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x72a8" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 86" Index="#x16d6" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x72b0" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 87" Index="#x16d7" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x72b8" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 88" Index="#x16d8" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x72c0" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 89" Index="#x16d9" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x72c8" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 90" Index="#x16da" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x72d0" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 91" Index="#x16db" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x72d8" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 92" Index="#x16dc" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x72e0" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 93" Index="#x16dd" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x72e8" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 94" Index="#x16de" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x72f0" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 95" Index="#x16df" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x72f8" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 96" Index="#x16e0" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7300" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 97" Index="#x16e1" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7308" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 98" Index="#x16e2" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7310" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 99" Index="#x16e3" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7318" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 100" Index="#x16e4" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7320" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 101" Index="#x16e5" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7328" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 102" Index="#x16e6" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7330" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 103" Index="#x16e7" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7338" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 104" Index="#x16e8" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7340" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 105" Index="#x16e9" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7348" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 106" Index="#x16ea" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7350" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 107" Index="#x16eb" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7358" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 108" Index="#x16ec" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7360" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 109" Index="#x16ed" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7368" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 110" Index="#x16ee" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7370" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 111" Index="#x16ef" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7378" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 112" Index="#x16f0" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7380" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 113" Index="#x16f1" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7388" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 114" Index="#x16f2" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7390" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 115" Index="#x16f3" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7398" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 116" Index="#x16f4" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x73a0" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 117" Index="#x16f5" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x73a8" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 118" Index="#x16f6" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x73b0" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 119" Index="#x16f7" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x73b8" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 120" Index="#x16f8" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x73c0" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 121" Index="#x16f9" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x73c8" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 122" Index="#x16fa" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x73d0" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 123" Index="#x16fb" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x73d8" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 124" Index="#x16fc" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x73e0" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 125" Index="#x16fd" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x73e8" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 126" Index="#x16fe" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x73f0" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 127" Index="#x16ff" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x73f8" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 0" Index="#x1880" InOut="1" Flags="#x0011" OverSampleFac="1" OverSampleMin="1" OverSampleMax="125" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7200" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 1" Index="#x1881" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7208" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 2" Index="#x1882" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7210" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 3" Index="#x1883" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7218" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 4" Index="#x1884" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7220" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 5" Index="#x1885" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7228" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 6" Index="#x1886" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7230" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 7" Index="#x1887" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7238" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 8" Index="#x1888" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7240" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 9" Index="#x1889" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7248" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 10" Index="#x188a" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7250" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 11" Index="#x188b" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7258" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 12" Index="#x188c" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7260" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 13" Index="#x188d" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7268" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 14" Index="#x188e" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7270" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 15" Index="#x188f" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7278" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 16" Index="#x1890" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7280" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 17" Index="#x1891" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7288" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 18" Index="#x1892" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7290" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 19" Index="#x1893" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7298" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 20" Index="#x1894" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x72a0" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 21" Index="#x1895" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x72a8" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 22" Index="#x1896" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x72b0" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 23" Index="#x1897" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x72b8" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 24" Index="#x1898" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x72c0" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 25" Index="#x1899" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x72c8" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 26" Index="#x189a" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x72d0" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 27" Index="#x189b" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x72d8" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 28" Index="#x189c" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x72e0" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 29" Index="#x189d" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x72e8" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 30" Index="#x189e" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x72f0" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 31" Index="#x189f" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x72f8" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 32" Index="#x18a0" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7300" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 33" Index="#x18a1" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7308" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 34" Index="#x18a2" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7310" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 35" Index="#x18a3" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7318" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 36" Index="#x18a4" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7320" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 37" Index="#x18a5" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7328" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 38" Index="#x18a6" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7330" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 39" Index="#x18a7" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7338" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 40" Index="#x18a8" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7340" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 41" Index="#x18a9" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7348" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 42" Index="#x18aa" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7350" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 43" Index="#x18ab" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7358" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 44" Index="#x18ac" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7360" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 45" Index="#x18ad" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7368" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 46" Index="#x18ae" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7370" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 47" Index="#x18af" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7378" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 48" Index="#x18b0" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7380" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 49" Index="#x18b1" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7388" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 50" Index="#x18b2" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7390" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 51" Index="#x18b3" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7398" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 52" Index="#x18b4" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x73a0" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 53" Index="#x18b5" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x73a8" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 54" Index="#x18b6" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x73b0" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 55" Index="#x18b7" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x73b8" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 56" Index="#x18b8" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x73c0" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 57" Index="#x18b9" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x73c8" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 58" Index="#x18ba" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x73d0" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 59" Index="#x18bb" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x73d8" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 60" Index="#x18bc" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x73e0" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 61" Index="#x18bd" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x73e8" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 62" Index="#x18be" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x73f0" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 63" Index="#x18bf" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x73f8" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 64" Index="#x18c0" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7400" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 65" Index="#x18c1" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7408" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 66" Index="#x18c2" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7410" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 67" Index="#x18c3" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7418" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 68" Index="#x18c4" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7420" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 69" Index="#x18c5" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7428" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 70" Index="#x18c6" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7430" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 71" Index="#x18c7" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7438" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 72" Index="#x18c8" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7440" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 73" Index="#x18c9" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7448" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 74" Index="#x18ca" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7450" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 75" Index="#x18cb" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7458" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 76" Index="#x18cc" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7460" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 77" Index="#x18cd" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7468" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 78" Index="#x18ce" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7470" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 79" Index="#x18cf" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7478" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 80" Index="#x18d0" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7480" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 81" Index="#x18d1" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7488" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 82" Index="#x18d2" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7490" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 83" Index="#x18d3" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7498" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 84" Index="#x18d4" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x74a0" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 85" Index="#x18d5" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x74a8" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 86" Index="#x18d6" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x74b0" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 87" Index="#x18d7" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x74b8" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 88" Index="#x18d8" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x74c0" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 89" Index="#x18d9" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x74c8" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 90" Index="#x18da" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x74d0" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 91" Index="#x18db" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x74d8" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 92" Index="#x18dc" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x74e0" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 93" Index="#x18dd" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x74e8" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 94" Index="#x18de" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x74f0" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 95" Index="#x18df" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x74f8" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 96" Index="#x18e0" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7500" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 97" Index="#x18e1" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7508" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 98" Index="#x18e2" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7510" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 99" Index="#x18e3" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7518" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 100" Index="#x18e4" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7520" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 101" Index="#x18e5" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7528" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 102" Index="#x18e6" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7530" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 103" Index="#x18e7" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7538" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 104" Index="#x18e8" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7540" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 105" Index="#x18e9" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7548" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 106" Index="#x18ea" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7550" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 107" Index="#x18eb" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7558" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 108" Index="#x18ec" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7560" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 109" Index="#x18ed" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7568" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 110" Index="#x18ee" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7570" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 111" Index="#x18ef" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7578" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 112" Index="#x18f0" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7580" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 113" Index="#x18f1" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7588" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 114" Index="#x18f2" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7590" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 115" Index="#x18f3" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x7598" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 116" Index="#x18f4" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x75a0" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 117" Index="#x18f5" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x75a8" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 118" Index="#x18f6" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x75b0" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 119" Index="#x18f7" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x75b8" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 120" Index="#x18f8" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x75c0" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 121" Index="#x18f9" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x75c8" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 122" Index="#x18fa" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x75d0" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 123" Index="#x18fb" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x75d8" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Sample1 124" Index="#x18fc" InOut="1" Flags="#x0014" OverSampleInc="8">
+				<Entry Name="Output1" Index="#x75e0" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Gap" Index="#x1718" InOut="1" Flags="#x0010" SyncMan="1">
+				<Entry>
+					<Type GUID="{18071995-0000-0000-0000-002000000006}">ARRAY [0..5] OF BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Gap" Index="#x1719" InOut="1" Flags="#x0010">
+				<Entry>
+					<Type GUID="{18071995-0000-0000-0000-002000000002}">ARRAY [0..1] OF BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Gap" Index="#x171a" InOut="1" Flags="#x0010">
+				<Entry>
+					<Type GUID="{18071995-0000-0000-0000-002000000003}">ARRAY [0..2] OF BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Gap" Index="#x171b" InOut="1" Flags="#x0010">
+				<Entry>
+					<Type GUID="{18071995-0000-0000-0000-002000000004}">ARRAY [0..3] OF BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Gap" Index="#x171c" InOut="1" Flags="#x0010">
+				<Entry>
+					<Type GUID="{18071995-0000-0000-0000-002000000005}">ARRAY [0..4] OF BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Gap" Index="#x171d" InOut="1" Flags="#x0010">
+				<Entry>
+					<Type GUID="{18071995-0000-0000-0000-002000000006}">ARRAY [0..5] OF BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Gap" Index="#x171e" InOut="1" Flags="#x0010">
+				<Entry>
+					<Type GUID="{18071995-0000-0000-0000-002000000007}">ARRAY [0..6] OF BIT</Type>
+				</Entry>
+			</Pdo>
+		</EtherCAT>
+	</Box>
+</TcSmItem>
